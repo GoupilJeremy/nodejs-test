@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-test",
+  "author": "https://github.com/GoupilJeremy",
+  "version": "0.0.1",
+  "description": "Create a simple API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": "4.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hyperdev.com/#!/project/welcome-project"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "jest": "^24.9.0",
+    "mocha": "^3.5.3",
+    "supertest": "^4.0.2"
+  }
+}
